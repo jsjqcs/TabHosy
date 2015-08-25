@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:orientation="horizontal" 
+    android:background="#ffffff"
+    android:gravity="center">
+    <ImageView 
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/qu"
+        android:layout_marginLeft="3dp"
+        android:contentDescription="@null"
+        android:background="@drawable/commweibo_inputmanager"/>
+    <EditText 
+        android:layout_width="258dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="3dp"
+        android:background="#F0F0F0"
+        android:inputType="text"/>
+    <Button 
+        android:id="@+id/commentbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="完成"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        android:textSize="14dp"
+        android:background="#4EEE94"/>
+</LinearLayout>

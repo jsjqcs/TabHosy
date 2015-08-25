@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pubcheaderlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="#292a32" >
+          
+         <ImageButton
+            android:id="@+id/btn_addImg"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/pub_title_change_btnbg_x"
+            android:src="@drawable/tabbar_compose_add" />
+
+        <ImageButton
+            android:id="@+id/btn_returnImg"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/pub_title_change_btnbg_x"
+            android:src="@drawable/tabbar_compose_back" />
+      
+         <ImageView  android:id="@+id/ImageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/btn_returnImg"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/tabbar_compose_split"/>   
+                 
+		<ImageView  android:id="@+id/ImageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/btn_addImg"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/tabbar_compose_split"/>
+       
+
+        <TextView
+            android:id="@+id/title_tvw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ImageView1"
+            android:text="test"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+    
