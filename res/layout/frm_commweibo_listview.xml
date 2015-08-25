@@ -6,8 +6,7 @@
     android:background="#ffffff">
     <include 
         android:id="@+id/pubcheaderlayout" 
-        layout="@layout/frm_pub_header_c2" />
-  	
+        layout="@layout/frm_pub_header_c1" />
  	<ListView 
    		android:id="@+id/comment_listview"
    		android:layout_width="match_parent"

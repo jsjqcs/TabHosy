@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
@@ -24,6 +25,7 @@ public class WeiBoMain extends ActivityGroup{
     protected void onCreate(Bundle savedInstanceState) {
     	// TODO Auto-generated method stub
     	super.onCreate(savedInstanceState);
+    	requestWindowFeature(Window.FEATURE_NO_TITLE);
     	setContentView(R.layout.frm_commweibo_main);
         mTabHost = (TabHost)findViewById(R.id.tabhost);
         mTabHost.setup(this.getLocalActivityManager());
