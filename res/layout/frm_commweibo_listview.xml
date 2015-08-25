@@ -2,7 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-    
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    <include 
+        android:id="@+id/pubcheaderlayout" 
+        layout="@layout/frm_pub_header_c2" />
+  	
+ 	<ListView 
+   		android:id="@+id/comment_listview"
+   		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:dividerHeight="0.5dp"
+		android:divider="#B5B5B5"
+		android:cacheColorHint="#000000"/>
 
 </LinearLayout>
